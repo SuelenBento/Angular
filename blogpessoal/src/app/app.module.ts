@@ -8,6 +8,7 @@ import { RodapeComponent } from './rodape/rodape.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EntrarComponent } from './entrar/entrar.component';
+import { CadastrarComponent } from './cadastrar/cadastrar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { EntrarComponent } from './entrar/entrar.component';
     MenuComponent,
     RodapeComponent,
     HomeComponent,
-    EntrarComponent
+    EntrarComponent,
+    CadastrarComponent
   ],
   imports: [
     BrowserModule,
