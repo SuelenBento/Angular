@@ -1,0 +1,12 @@
+.fs-16{
+  font-size: 16pt;
+  color: rgb(0, 0, 0);
+}
+
+a{
+  cursor: pointer;
+}
+
+.bg-nav{
+  background-color: rgb(244, 197, 8);
+}
