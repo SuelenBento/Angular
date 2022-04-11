@@ -1,0 +1,51 @@
+
+/* 
+#img-bg{
+    min-height: 627px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+@keyframes change{
+    0%{
+        background-position: 0% 20%;
+    }
+    50%{
+        background-position: 10%;
+    }
+    100%{
+        background-position: 20% 0%;
+    }
+}
+
+.bg{
+    
+    background:linear-gradient(150deg,  #ed9908, #684d03, #000000);
+    background-size: 200% 200%;
+    animation: change 5s ease infinite;
+}
+
+h1{
+    color: black;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transform: translate();
+    padding: 3rem 3rem;
+    font-weight: 700;
+}
+
+.form-group{
+    color: black;
+    font-weight: 700;
+
+}
+
+p{
+    color: black;
+    font-weight: 700;
+
+}
+
+

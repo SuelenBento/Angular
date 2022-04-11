@@ -7,13 +7,15 @@ import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { EntrarComponent } from './entrar/entrar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     RodapeComponent,
-    HomeComponent
+    HomeComponent,
+    EntrarComponent
   ],
   imports: [
     BrowserModule,
